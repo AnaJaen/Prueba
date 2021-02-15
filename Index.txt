@@ -12,7 +12,7 @@ CLONAR
  $ git status
 
 CREAR NUEVO ARCHIVO DENTRO DEL PROYECTO
-Creamos el archivo txt dentro de la carpeta.
+Creamos el archivo txt dentro de la carpeta. Lo mueve al staging area
  $ git add nombreArchivo.txt  // en este caso git add Index.txt
  
 MODIFICAR ARCHIVO CREADO Y GUARDARLO
@@ -24,5 +24,5 @@ Escribimos una segunda linea dentro del archivo
 COMMIT
 $ git commit -m "" // entre comillas va el comentario aclaratorio o descrptivo del archivo
                  // git commit -m "saludo y nueva linea"
-$ git push // se sube al repositorio local lo que hemos trabajado en remoto.
+$ git push // se sube al repositorio local lo que hemos trabajado en remoto. Lo subimos al repositorio
 
