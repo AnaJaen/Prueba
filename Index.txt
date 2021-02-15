@@ -5,7 +5,7 @@ Comandos utilizados desde el bash:
 
 CLONAR
   // agregamos la carpeta recien creada en nuestro escritorio (u otra ruta)
-  // copiamos la dirección del proyecto desde GitHub y la pegamos en el bash
+  // copiamos la dirección del proyecto del reposiorio desde GitHub y la pegamos en el bash para trabajar local.
   $ git clone https://github.com/AnaJaen/Prueba.git
 
  $ cd nombreProyecto
@@ -24,5 +24,5 @@ Escribimos una segunda linea dentro del archivo
 COMMIT
 $ git commit -m "" // entre comillas va el comentario aclaratorio o descrptivo del archivo
                  // git commit -m "saludo y nueva linea"
-$ git push // se sube al repositorio local lo que hemos trabajado en remoto. Lo subimos al repositorio
+$ git push // se sube al repositorio remoto lo que hemos trabajado en local. Lo subimos al repositorio
 
