@@ -1,2 +1,27 @@
 Hola Mundo!
 Nuevo texto.
+
+Comandos utilizados desde el bash:
+
+CLONAR
+  // agregamos la carpeta recien creada en nuestro escritorio (u otra ruta)
+  // copiamos la dirección del proyecto desde GitHub y la pegamos en el bash
+  $ git clone https://github.com/AnaJaen/Prueba.git
+
+ $ cd nombreProyecto
+ $ git status
+
+CREAR NUEVO ARCHIVO DENTRO DEL PROYECTO
+Creamos el archivo txt dentro de la carpeta.
+ $ git add nombreArchivo.txt  // en este caso git add Index.txt
+ 
+MODIFICAR ARCHIVO CREADO Y GUARDARLO
+Escribimos una segunda linea dentro del archivo
+ $ git diff  // lo que aparezca con un + son las nuevas modificaciones incluidas al proyecto y con - lo eliminado.
+            // podemos ver la nueva linea +Nuevo texto.
+ $ git add.  // incluye en el respositorio todo lo nuevo.
+
+COMMIT
+$ git commit -m "" // entre comillas va el comentario aclaratorio o descrptivo del archivo
+                 // git commit -m "saludo y nueva linea"
+$ git push // se sube al repositorio local lo que hemos trabajado en remoto.
