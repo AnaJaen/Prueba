@@ -25,3 +25,4 @@ COMMIT
 $ git commit -m "" // entre comillas va el comentario aclaratorio o descrptivo del archivo
                  // git commit -m "saludo y nueva linea"
 $ git push // se sube al repositorio local lo que hemos trabajado en remoto.
+
