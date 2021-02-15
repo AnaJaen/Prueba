@@ -1,0 +1,2 @@
+El archivo Index.txt lo incluimos desde el bash.
+Este nuevo archivo lo agregamos desde la cuenta de GitHub.
